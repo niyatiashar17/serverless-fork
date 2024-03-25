@@ -9,5 +9,5 @@ functions.cloudEvent("serverless_verify_email", (cloudEvent) => {
 
   const message = base64name
     ? JSON.parse(Buffer.from(base64Message, "base64").toString())
-    : {};
+    
 });
